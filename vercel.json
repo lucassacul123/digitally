@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "digitally-web.vercel.app" }],
+      "destination": "https://digitally.no/:path*",
+      "permanent": true
+    }
+  ]
+}
