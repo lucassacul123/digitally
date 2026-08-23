@@ -60,7 +60,6 @@
     border-bottom: 1px solid var(--ramme);
     font-family: var(--sans);
     font-size: 13px;
-    color: var(--dempet);
   }
   .toppmeny a { color: var(--dempet); text-decoration: none; }
   .toppmeny a:hover { color: var(--blekk); text-decoration: underline; }
@@ -112,6 +111,18 @@
 
   .kontakt { font-size: 20px; line-height: 1.9; }
 
+  .knapp {
+    display: inline-block;
+    font-family: var(--sans);
+    font-size: 15px;
+    text-decoration: none;
+    color: var(--blekk);
+    border: 1px solid var(--blekk);
+    padding: 11px 20px;
+  }
+  .knapp:hover { background: var(--blekk); color: var(--paper); }
+  .flere { margin: 36px 0 0; }
+
   footer {
     border-top: 1px solid var(--ramme);
     margin-top: 64px;
@@ -141,8 +152,8 @@
 <div class="ark">
 
   <nav class="toppmeny">
-    <span>om-meg.txt</span>
     <a href="/">&larr; hjem</a>
+    <a href="/anmeldelser.html">anmeldelser &rarr;</a>
   </nav>
 
   <main>
@@ -174,6 +185,8 @@
         <blockquote>«Har en fantastisk måte å intervjue interessante personer på ved å spørre hvorfor og hvordan, og lar dem ikke slippe unna med svada.»</blockquote>
         <div class="kilde">Lytter, Apple Podcasts</div>
       </div>
+
+      <p class="flere"><a class="knapp" href="/anmeldelser.html">Flere anmeldelser</a></p>
     </section>
 
     <section>
