@@ -101,6 +101,22 @@
     margin-bottom: 32px;
   }
 
+  .byline {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 0 0 36px;
+  }
+  .byline img {
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .byline-navn { font-family: var(--sans); font-size: 16px; }
+  .byline-om { font-family: var(--sans); font-size: 15px; color: var(--dempet); }
+
   .cta-rad {
     display: flex;
     flex-wrap: wrap;
@@ -157,15 +173,6 @@
   }
   .tjeneste .passer strong { font-weight: 700; color: var(--blekk); }
 
-  .portrett {
-    display: block;
-    width: 100%;
-    max-width: 260px;
-    height: auto;
-    border: 1px solid var(--ramme);
-    margin: 32px 0 0;
-  }
-
   .sitat { display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; }
   .sitat:last-child { margin-bottom: 0; }
   .sitat img {
@@ -207,6 +214,7 @@
     .ingress { font-size: 19px; }
     .pris-linje { font-size: 18px; }
     .tjeneste .passer { font-size: 17px; }
+    .byline img { width: 60px; height: 60px; }
     .sitat { gap: 16px; }
     .sitat blockquote { font-size: 17px; }
     .sitat img { width: 44px; height: 44px; }
@@ -230,6 +238,14 @@
     <h1>Lei inn en kommunikasjonsdirektør for en dag.</h1>
 
     <p class="ingress">Når dere trenger skarpere budskap, et medieutspill, en bedre presentasjon eller en plan for innholdet — men ikke en ansettelse eller et byrå på retainer.</p>
+
+    <div class="byline">
+      <img src="img/lucas-byline.jpg" alt="Lucas H. Weldeghebriel">
+      <div>
+        <div class="byline-navn">Lucas H. Weldeghebriel</div>
+        <div class="byline-om">Journalist i 25 år. Grunnla Shifter.</div>
+      </div>
+    </div>
 
     <div class="cta-rad">
       <a class="cta" href="mailto:lucas@digitally.no?subject=Foresp%C3%B8rsel%3A%20Lei%20inn%20en%20kommunikasjonsdirekt%C3%B8r%20for%20en%20dag">Send meg en mail</a>
@@ -286,7 +302,6 @@
       <p>Jeg har 15 år bak meg som journalist i VG og Aftenposten. Deretter bygde og drev jeg Shifter i ti år, Norges største publikasjon for startups, før det ble solgt til Schibsted.</p>
       <p>I dag driver jeg Operators, der jeg intervjuer norske gründere og operatører om hvordan de faktisk bygger selskapene sine.</p>
       <p>Jeg har vært tett på selskaper, gründere, mediehus og investorer i mange år. Det gjør at jeg raskt kan se hva som er interessant, hva som mangler og hva som faktisk vil fungere for målgruppen dere vil nå.</p>
-      <img class="portrett" src="img/lucas.jpg" alt="Lucas H. Weldeghebriel">
     </section>
 
     <section>
