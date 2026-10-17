@@ -89,19 +89,7 @@
   a { color: var(--blekk); }
   a:hover { color: var(--dempet); }
 
-  .byline {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    margin: 0 0 36px;
-  }
-  .byline img {
-    width: 104px;
-    height: 104px;
-    object-fit: cover;
-    border-radius: 50%;
-    flex-shrink: 0;
-  }
+  .byline { margin: 0; }
   .byline-navn { font-family: var(--sans); font-size: 16px; }
   .byline-om { font-family: var(--sans); font-size: 15px; color: var(--dempet); line-height: 1.5; }
 
@@ -118,7 +106,7 @@
 
   section { border-top: 1px solid var(--strek); margin-top: 56px; padding-top: 56px; }
 
-  .kontakt { font-size: 20px; margin-bottom: 0; }
+  .kontakt { margin: 36px 0 0; }
 
   footer {
     border-top: 1px solid var(--ramme);
@@ -138,8 +126,6 @@
     main { padding: 0 24px; }
     h1 { font-size: 30px; margin: 40px 0 28px; }
     h2 { font-size: 20px; }
-    .byline img { width: 84px; height: 84px; }
-    .kontakt { font-size: 18px; }
     section { padding-top: 44px; margin-top: 44px; }
     footer { padding: 20px 24px 24px; margin-top: 48px; }
   }
@@ -158,14 +144,9 @@
     <h1>Jeg hjelper gründere og CEO-er når veksten bremser, og det ikke er åpenbart hvorfor.</h1>
 
     <div class="byline">
-      <img src="img/lucas-byline.jpg" alt="Lucas H. Weldeghebriel">
-      <div>
-        <div class="byline-navn">Lucas H. Weldeghebriel</div>
-        <div class="byline-om">Grunnla Shifter. Entrepreneur in Residence i StartupLab og angel investor.</div>
-      </div>
+      <div class="byline-navn">Lucas H. Weldeghebriel</div>
+      <div class="byline-om">Grunnla Shifter. Entrepreneur in Residence i StartupLab og angel investor.</div>
     </div>
-
-    <p><a class="cta" href="mailto:lucas@digitally.no?subject=Foresp%C3%B8rsel">Send meg en mail</a></p>
 
     <section>
       <h2>Bakgrunn.</h2>
@@ -188,7 +169,7 @@
       <p>Et samarbeid starter med en samtale som gir verdi. Hvis ikke, går vi ikke videre. Fordi jeg er uavhengig, kan jeg spille både på egne og andres ferdigheter.</p>
       <p>For å bli litt bedre kjent med meg, kan du lytte til podcasten <a href="https://operators.no">Operators</a>.</p>
       <p>Står dere overfor en vekstutfordring som er vanskelig å forstå eller løse? Da tar jeg gjerne en prat.</p>
-      <p class="kontakt"><a href="mailto:lucas@digitally.no?subject=Foresp%C3%B8rsel">lucas@digitally.no</a></p>
+      <p class="kontakt"><a class="cta" href="mailto:lucas@digitally.no?subject=Foresp%C3%B8rsel">Send meg en mail</a></p>
     </section>
 
   </main>
