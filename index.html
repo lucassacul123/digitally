@@ -3,24 +3,24 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Lei inn en kommunikasjonsdirektør for en dag | Digitally</title>
-<meta name="description" content="Senior kommunikasjonshjelp for vekstselskaper. Posisjonering, PR, podcast og moderering — uten ansettelse eller byråavtale.">
+<title>Strategisk sparring for gründere og CEO-er | Digitally</title>
+<meta name="description" content="Jeg hjelper gründere og CEO-er når veksten bremser, og det ikke er åpenbart hvorfor. Uavhengig strategisk sparringspartner.">
 <link rel="canonical" href="https://digitally.no/">
 <meta name="robots" content="index, follow">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="nb_NO">
 <meta property="og:site_name" content="Digitally">
 <meta property="og:url" content="https://digitally.no/">
-<meta property="og:title" content="Lei inn en kommunikasjonsdirektør for en dag">
-<meta property="og:description" content="Senior kommunikasjonshjelp for vekstselskaper. Posisjonering, PR, podcast og moderering — uten ansettelse eller byråavtale.">
-<meta property="og:image" content="https://digitally.no/img/og-image.jpg">
+<meta property="og:title" content="Når veksten bremser, og det ikke er åpenbart hvorfor">
+<meta property="og:description" content="Uavhengig strategisk sparringspartner for et lite antall gründere og CEO-er.">
+<meta property="og:image" content="https://digitally.no/img/og-image.jpg?v=2">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Lucas H. Weldeghebriel – Digitally">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Lei inn en kommunikasjonsdirektør for en dag">
-<meta name="twitter:description" content="Senior kommunikasjonshjelp for vekstselskaper — uten ansettelse eller byråavtale.">
-<meta name="twitter:image" content="https://digitally.no/img/og-image.jpg">
+<meta name="twitter:title" content="Når veksten bremser, og det ikke er åpenbart hvorfor">
+<meta name="twitter:description" content="Uavhengig strategisk sparringspartner for et lite antall gründere og CEO-er.">
+<meta name="twitter:image" content="https://digitally.no/img/og-image.jpg?v=2">
 <style>
   *, *::before, *::after { box-sizing: border-box; }
 
@@ -56,9 +56,7 @@
 
   .toppmeny {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 16px;
+    justify-content: flex-end;
     padding: 10px 20px;
     border-bottom: 1px solid var(--ramme);
     font-family: var(--sans);
@@ -75,7 +73,7 @@
     font-size: 40px;
     line-height: 1.2;
     letter-spacing: -0.012em;
-    margin: 60px 0 28px;
+    margin: 60px 0 36px;
   }
 
   h2 {
@@ -91,16 +89,6 @@
   a { color: var(--blekk); }
   a:hover { color: var(--dempet); }
 
-  .ingress { font-size: 21px; line-height: 1.6; margin-bottom: 40px; }
-
-  .pris-linje {
-    font-size: 20px;
-    padding: 20px 0;
-    border-top: 1px solid var(--strek);
-    border-bottom: 1px solid var(--strek);
-    margin-bottom: 32px;
-  }
-
   .byline {
     display: flex;
     align-items: center;
@@ -115,15 +103,7 @@
     flex-shrink: 0;
   }
   .byline-navn { font-family: var(--sans); font-size: 16px; }
-  .byline-om { font-family: var(--sans); font-size: 15px; color: var(--dempet); }
-
-  .cta-rad {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 20px;
-    margin-bottom: 8px;
-  }
+  .byline-om { font-family: var(--sans); font-size: 15px; color: var(--dempet); line-height: 1.5; }
 
   .cta {
     display: inline-block;
@@ -136,65 +116,9 @@
   }
   .cta:hover { background: var(--blekk); color: var(--paper); }
 
-  .cta-bi { font-family: var(--sans); font-size: 15px; color: var(--dempet); }
-  .cta-bi a { color: var(--dempet); }
+  section { border-top: 1px solid var(--strek); margin-top: 56px; padding-top: 56px; }
 
-  .cta-tips {
-    font-family: var(--sans);
-    font-size: 15px;
-    color: var(--dempet);
-    margin: 18px 0 0;
-  }
-
-  section { padding: 56px 0 0; }
-  section + section { border-top: 1px solid var(--strek); margin-top: 56px; padding-top: 56px; }
-
-  .tjeneste { margin-bottom: 44px; }
-  .tjeneste:last-child { margin-bottom: 0; }
-  .tjeneste-nr {
-    font-family: var(--sans);
-    font-size: 13px;
-    letter-spacing: 0.08em;
-    color: var(--dempet);
-    margin-bottom: 8px;
-  }
-  .tjeneste h3 {
-    font-family: var(--serif);
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.35;
-    margin: 0 0 14px;
-  }
-  .tjeneste .lofte { font-style: italic; margin-bottom: 14px; }
-  .tjeneste .passer {
-    font-size: 18px;
-    color: var(--dempet);
-    margin: 0;
-  }
-  .tjeneste .passer strong { font-weight: 700; color: var(--blekk); }
-
-  .sitat { display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; }
-  .sitat:last-child { margin-bottom: 0; }
-  .sitat img {
-    width: 56px; height: 56px;
-    object-fit: cover;
-    border-radius: 50%;
-    flex-shrink: 0;
-    margin-top: 6px;
-  }
-  .sitat blockquote {
-    margin: 0;
-    font-size: 19px;
-    line-height: 1.62;
-    font-style: italic;
-  }
-  .sitat .navn { font-family: var(--sans); font-size: 15px; margin-top: 14px; }
-  .sitat .rolle { font-family: var(--sans); font-size: 15px; color: var(--dempet); }
-
-  .kontakt { font-size: 20px; line-height: 1.9; margin-bottom: 28px; }
-  .signatur { margin-bottom: 0; }
-  .videre { font-family: var(--sans); font-size: 15px; margin: 40px 0 0; }
-  .videre a { color: var(--dempet); }
+  .kontakt { font-size: 20px; margin-bottom: 0; }
 
   footer {
     border-top: 1px solid var(--ramme);
@@ -212,17 +136,11 @@
   @media (max-width: 640px) {
     body { font-size: 18px; padding: 16px 12px 48px; }
     main { padding: 0 24px; }
-    h1 { font-size: 30px; margin: 40px 0 24px; }
+    h1 { font-size: 30px; margin: 40px 0 28px; }
     h2 { font-size: 20px; }
-    .ingress { font-size: 19px; }
-    .pris-linje { font-size: 18px; }
-    .tjeneste .passer { font-size: 17px; }
     .byline img { width: 84px; height: 84px; }
-    .sitat { gap: 16px; }
-    .sitat blockquote { font-size: 17px; }
-    .sitat img { width: 44px; height: 44px; }
     .kontakt { font-size: 18px; }
-    section, section + section { padding-top: 44px; margin-top: 44px; }
+    section { padding-top: 44px; margin-top: 44px; }
     footer { padding: 20px 24px 24px; margin-top: 48px; }
   }
 </style>
@@ -232,114 +150,45 @@
 <div class="ark">
 
   <nav class="toppmeny">
-    <a href="/">&larr; hjem</a>
     <a href="/om-meg.html">om meg &rarr;</a>
   </nav>
 
   <main>
 
-    <h1>Lei inn en kommunikasjonsdirektør for en dag.</h1>
-
-    <p class="ingress">Når dere trenger skarpere budskap, et medieutspill, en bedre presentasjon eller en plan for innholdet — men ikke en ansettelse eller et byrå på retainer.</p>
+    <h1>Jeg hjelper gründere og CEO-er når veksten bremser, og det ikke er åpenbart hvorfor.</h1>
 
     <div class="byline">
       <img src="img/lucas-byline.jpg" alt="Lucas H. Weldeghebriel">
       <div>
         <div class="byline-navn">Lucas H. Weldeghebriel</div>
-        <div class="byline-om">Journalist i 25 år. Grunnla Shifter.</div>
+        <div class="byline-om">Grunnla Shifter. Entrepreneur in Residence i StartupLab og angel investor.</div>
       </div>
     </div>
 
-    <div class="cta-rad">
-      <a class="cta" href="mailto:lucas@digitally.no?subject=Foresp%C3%B8rsel%3A%20Lei%20inn%20en%20kommunikasjonsdirekt%C3%B8r%20for%20en%20dag">Send meg en mail</a>
-      <span class="cta-bi">eller ring <a href="tel:+4798644403">986 44 403</a> for en uforpliktende prat</span>
-    </div>
-
-    <p class="cta-tips">En SMS funker like bra. Da svarer jeg som regel raskere.</p>
+    <p><a class="cta" href="mailto:lucas@digitally.no?subject=Foresp%C3%B8rsel">Send meg en mail</a></p>
 
     <section>
-      <h2>Start med det viktigste.</h2>
-      <p>Dere trenger ikke starte med en stor kommunikasjonsplan eller et langvarig byråsamarbeid. På én arbeidsdag finner vi ut hva som er viktigst, skjerper budskapet og lager en konkret plan for neste steg.</p>
-      <p>Noen ganger betyr det å gjøre en pressemelding, kronikk eller presentasjon klar. Andre ganger betyr det å finne posisjonen dere bør eie, planlegge en podkast eller lage en samtale som fungerer på scenen.</p>
-      <p>Vi starter med én dag. Trenger dere mer etterpå, tar vi det derfra.</p>
+      <h2>Bakgrunn.</h2>
+      <p>I ti år bygget jeg Shifter, før jeg solgte selskapet til Schibsted i 2024. Gjennom Shifter og nå Operators har jeg gjennomført over 1&nbsp;000 intervjuer med gründere og selskapsledere om hva som fungerte, hva som ikke gjorde det, og hvilke beslutninger som ble avgjørende.</p>
+      <p>Det har gitt meg et uvanlig bredt sammenligningsgrunnlag for å forstå hvordan selskaper vokser. Ofte kjenner jeg igjen problemet fordi jeg har sett noe lignende før – i et annet selskap, en annen bransje eller en annen vekstfase.</p>
+      <p>Som journalist i VG og Aftenposten lærte jeg å stille spørsmål, utfordre antakelser og grave videre når svarene er uklare. Det samme gjør jeg sammen med gründere og ledergrupper.</p>
+      <p>Parallelt med rådgivningen bygger jeg <a href="https://operators.no">Operators</a> – en podcast og et nyhetsbrev der jeg fortsetter å utforske hvordan ambisiøse selskaper bygges, skaleres og ledes.</p>
     </section>
 
     <section>
-      <h2>Dette kan jeg hjelpe med.</h2>
-
-      <div class="tjeneste">
-        <div class="tjeneste-nr">01</div>
-        <h3>Posisjonering og innholdsstrategi</h3>
-        <p class="lofte">Finn historien dere skal eie.</p>
-        <p>Jeg hjelper dere å sette ord på hva dere står for, hvem dere skal nå og hvilke samtaler dere bør ta plass i. Resultatet er et skarpere budskap og en innholdsplan som er mulig å gjennomføre.</p>
-        <p class="passer"><strong>Passer når:</strong> Dere har mye kompetanse, men ikke én tydelig stemme eller retning utad.</p>
-      </div>
-
-      <div class="tjeneste">
-        <div class="tjeneste-nr">02</div>
-        <h3>PR og kommunikasjon</h3>
-        <p class="lofte">Gjør budskapet relevant utenfor eget selskap.</p>
-        <p>Fra budskap og pressemelding til kronikk, medietrening og konkrete medieutspill. Jeg hjelper dere å si noe som fortjener oppmerksomhet — og å velge riktig kanal og tidspunkt.</p>
-        <p class="passer"><strong>Passer når:</strong> Dere har en nyhet, en sterk faglig posisjon eller et tema dere bør eie offentlig.</p>
-      </div>
-
-      <div class="tjeneste">
-        <div class="tjeneste-nr">03</div>
-        <h3>Podcast og thought leadership</h3>
-        <p class="lofte">Bygg tillit gjennom bedre samtaler.</p>
-        <p>Jeg utvikler podcast- og innholdskonsepter for ledere og selskaper som har noe å lære bort. Fra idé, format og gjestestrategi til intervju, redaksjonell kvalitet og distribusjon.</p>
-        <p class="passer"><strong>Passer når:</strong> Dere vil bygge autoritet over tid, ikke bare kjøpe synlighet i korte kampanjer.</p>
-      </div>
-
-      <div class="tjeneste">
-        <div class="tjeneste-nr">04</div>
-        <h3>Event og paneldebattmoderering</h3>
-        <p class="lofte">Lag samtaler folk faktisk husker.</p>
-        <p>Jeg designer samtaler, intervjuer og paneler med tydelig konflikt, fremdrift og verdi for publikum. Jeg kan bidra med program, deltakerutvelgelse og moderering på scenen.</p>
-        <p class="passer"><strong>Passer når:</strong> Arrangementet skal bygge relasjoner, vise faglig tyngde eller skape en relevant samtale rundt et viktig tema.</p>
-      </div>
+      <h2>Hvordan jeg jobber.</h2>
+      <p>Jeg kommer inn med et uavhengig blikk, uten en ferdig løsning eller egen agenda.</p>
+      <p>Noen ganger ligger problemet i posisjoneringen. Andre ganger i distribusjonen, salgsprosessen eller rett og slett i for mange konkurrerende prioriteringer.</p>
+      <p>Min jobb er å hjelpe dere med å skille symptomene fra de egentlige veksthindringene og finne ut hva dere bør gjøre først.</p>
     </section>
 
     <section>
-      <h2>Erfaring fra redaksjon, vekstselskaper og scenen.</h2>
-      <p>Jeg har 15 år bak meg som journalist i VG og Aftenposten. Deretter bygde og drev jeg Shifter i ti år, Norges største publikasjon for startups, før det ble solgt til Schibsted.</p>
-      <p>I dag driver jeg Operators, der jeg intervjuer norske gründere og operatører om hvordan de faktisk bygger selskapene sine.</p>
-      <p>Jeg har vært tett på selskaper, gründere, mediehus og investorer i mange år. Det gjør at jeg raskt kan se hva som er interessant, hva som mangler og hva som faktisk vil fungere for målgruppen dere vil nå.</p>
-    </section>
-
-    <section>
-      <h2>Hva folk sier.</h2>
-
-      <div class="sitat">
-        <img src="img/leif-kristian.jpg" alt="Leif Kristian Nestvold-Haugen">
-        <div>
-          <blockquote>«Jeg har skrevet en kronikk om noe jeg brenner veldig for, og nå er den ute på vg.no. En spesielt stor takk til Lucas H. Weldeghebriel, som har gitt meg gode innspill på teksten, sparket meg litt bak for å ikke bare prate om det, men også faktisk mene noe i det offentlige rom, og for at han åpnet døra inn mot VG. Lucas vet hvordan man navigerer det norske medielandskapet. Hvis du brenner inne med noe du ønsker debatt eller blest om, ta en prat med han. Der får du ærlige og gode tilbakemeldinger.»</blockquote>
-          <div class="navn">Leif Kristian Nestvold-Haugen</div>
-          <div class="rolle">Tidligere OL-utøver, gründer</div>
-        </div>
-      </div>
-
-      <div class="sitat">
-        <img src="img/trygve-karper.jpg" alt="Trygve Karper">
-        <div>
-          <blockquote>«Lucas forstår hva folket vil ha, om det er presse, CXOs, eller kvinnen i gata. På innmari kort tid, hadde vi jammen en artikkel på trykk med vårt kjernebudskap i en av landets største aviser. Anbefales sterkt!»</blockquote>
-          <div class="navn">Trygve Karper</div>
-          <div class="rolle">Co-founder, Riff</div>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <h2>Start med én dag.</h2>
-      <p>Har dere noe viktig dere må få sagt, men trenger hjelp til å finne vinklingen, budskapet eller formatet? Send meg en mail eller en tekstmelding, så tar vi en uforpliktende prat om hva som kan være riktig neste steg.</p>
-      <p class="pris-linje">Én dag koster 35 000 kroner eks. mva.</p>
-      <p class="kontakt">
-        <a href="mailto:lucas@digitally.no?subject=Foresp%C3%B8rsel%3A%20Lei%20inn%20en%20kommunikasjonsdirekt%C3%B8r%20for%20en%20dag">lucas@digitally.no</a><br>
-        <a href="tel:+4798644403">986 44 403</a>
-      </p>
-      <p class="signatur">Lucas</p>
-
-      <p class="videre"><a href="/om-meg.html">Mer om meg og bakgrunnen min &rarr;</a></p>
+      <h2>Slik starter et samarbeid.</h2>
+      <p>Jeg jobber som uavhengig strategisk sparringspartner for et lite antall gründere og CEO-er.</p>
+      <p>Et samarbeid starter med en samtale som gir verdi. Hvis ikke, går vi ikke videre. Fordi jeg er uavhengig, kan jeg spille både på egne og andres ferdigheter.</p>
+      <p>For å bli litt bedre kjent med meg, kan du lytte til podcasten <a href="https://operators.no">Operators</a>.</p>
+      <p>Står dere overfor en vekstutfordring som er vanskelig å forstå eller løse? Da tar jeg gjerne en prat.</p>
+      <p class="kontakt"><a href="mailto:lucas@digitally.no?subject=Foresp%C3%B8rsel">lucas@digitally.no</a></p>
     </section>
 
   </main>
@@ -358,28 +207,20 @@
   "@type": "ProfessionalService",
   "name": "Digitally",
   "url": "https://digitally.no/",
-  "image": "https://digitally.no/img/og-image.jpg",
+  "image": "https://digitally.no/img/og-image.jpg?v=2",
   "email": "lucas@digitally.no",
   "telephone": "+4798644403",
   "areaServed": "NO",
-  "priceRange": "35000 NOK",
-  "description": "Senior kommunikasjonshjelp for vekstselskaper. Posisjonering, PR, podcast og moderering — uten ansettelse eller byråavtale.",
+  "description": "Uavhengig strategisk sparring for gründere og CEO-er når veksten bremser, og det ikke er åpenbart hvorfor.",
   "founder": {
     "@type": "Person",
     "name": "Lucas H. Weldeghebriel",
-    "jobTitle": "Kommunikasjonsrådgiver",
+    "jobTitle": "Strategisk sparringspartner",
     "url": "https://digitally.no/om-meg.html",
     "sameAs": "https://www.linkedin.com/in/lucas-weldeghebriel/",
     "image": "https://digitally.no/img/lucas.jpg",
     "email": "lucas@digitally.no",
-    "description": "15 år som journalist i VG og Aftenposten. Bygde og drev Shifter i ti år, før det ble solgt til Schibsted. Driver podkasten Operators."
-  },
-  "makesOffer": {
-    "@type": "Offer",
-    "name": "Lei inn en kommunikasjonsdirektør for en dag",
-    "price": "35000",
-    "priceCurrency": "NOK",
-    "description": "Én arbeidsdag med senior kommunikasjonshjelp: posisjonering, PR, podcast eller moderering."
+    "description": "Bygget Shifter i ti år og solgte selskapet til Schibsted i 2024. Driver Operators."
   }
 }
 </script>
